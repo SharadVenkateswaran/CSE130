@@ -1,0 +1,736 @@
+"main.ml" 1 0 4 "main.ml" 1 0 24
+type(
+  string -> NanoParse.token list
+)
+ident(
+  def token_list_of_string "main.ml" 11 224 224 "main.ml" 1 0 -1
+)
+"main.ml" 1 0 25 "main.ml" 1 0 26
+type(
+  string
+)
+ident(
+  def s "main.ml" 2 29 31 "main.ml" 9 209 222
+)
+"main.ml" 2 29 35 "main.ml" 2 29 37
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lb "main.ml" 3 64 66 "main.ml" 9 209 222
+)
+"main.ml" 2 29 40 "main.ml" 2 29 58
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"main.ml" 2 29 59 "main.ml" 2 29 60
+type(
+  string
+)
+ident(
+  int_ref s "main.ml" 1 0 25 "main.ml" 1 0 26
+)
+"main.ml" 2 29 40 "main.ml" 2 29 60
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"main.ml" 3 64 74 "main.ml" 3 64 80
+type(
+  NanoParse.token list -> NanoParse.token list
+)
+ident(
+  def helper "main.ml" 3 64 66 "main.ml" 9 209 222
+)
+"main.ml" 3 64 81 "main.ml" 3 64 82
+type(
+  NanoParse.token list
+)
+ident(
+  def l "main.ml" 4 86 87 "main.ml" 7 182 203
+)
+"main.ml" 5 92 99 "main.ml" 5 92 100
+type(
+  NanoParse.token
+)
+ident(
+  def t "main.ml" 6 123 126 "main.ml" 6 123 181
+)
+"main.ml" 5 92 103 "main.ml" 5 92 116
+type(
+  Lexing.lexbuf -> NanoParse.token
+)
+ident(
+  ext_ref NanoLex.token
+)
+"main.ml" 5 92 117 "main.ml" 5 92 119
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "main.ml" 2 29 35 "main.ml" 2 29 37
+)
+"main.ml" 5 92 103 "main.ml" 5 92 119
+call(
+  stack
+)
+type(
+  NanoParse.token
+)
+"main.ml" 6 123 129 "main.ml" 6 123 130
+type(
+  NanoParse.token
+)
+ident(
+  int_ref t "main.ml" 5 92 99 "main.ml" 5 92 100
+)
+"main.ml" 6 123 131 "main.ml" 6 123 132
+type(
+  NanoParse.token -> NanoParse.token -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"main.ml" 6 123 133 "main.ml" 6 123 146
+type(
+  NanoParse.token
+)
+"main.ml" 6 123 129 "main.ml" 6 123 146
+type(
+  bool
+)
+"main.ml" 6 123 152 "main.ml" 6 123 160
+type(
+  NanoParse.token list -> NanoParse.token list
+)
+ident(
+  ext_ref List.rev
+)
+"main.ml" 6 123 161 "main.ml" 6 123 162
+type(
+  NanoParse.token list
+)
+ident(
+  int_ref l "main.ml" 3 64 81 "main.ml" 3 64 82
+)
+"main.ml" 6 123 152 "main.ml" 6 123 162
+call(
+  stack
+)
+type(
+  NanoParse.token list
+)
+"main.ml" 6 123 168 "main.ml" 6 123 174
+type(
+  NanoParse.token list -> NanoParse.token list
+)
+ident(
+  int_ref helper "main.ml" 3 64 74 "main.ml" 3 64 80
+)
+"main.ml" 6 123 176 "main.ml" 6 123 177
+type(
+  NanoParse.token
+)
+ident(
+  int_ref t "main.ml" 5 92 99 "main.ml" 5 92 100
+)
+"main.ml" 6 123 179 "main.ml" 6 123 180
+type(
+  NanoParse.token list
+)
+ident(
+  int_ref l "main.ml" 3 64 81 "main.ml" 3 64 82
+)
+"main.ml" 6 123 175 "main.ml" 6 123 181
+type(
+  NanoParse.token list
+)
+"main.ml" 6 123 168 "main.ml" 6 123 181
+call(
+  stack
+)
+type(
+  NanoParse.token list
+)
+"main.ml" 6 123 126 "main.ml" 6 123 181
+type(
+  NanoParse.token list
+)
+"main.ml" 5 92 95 "main.ml" 6 123 181
+type(
+  NanoParse.token list
+)
+"main.ml" 7 182 188 "main.ml" 7 182 189
+type(
+  exn
+)
+"main.ml" 7 182 193 "main.ml" 7 182 201
+type(
+  NanoParse.token list -> NanoParse.token list
+)
+ident(
+  ext_ref List.rev
+)
+"main.ml" 7 182 202 "main.ml" 7 182 203
+type(
+  NanoParse.token list
+)
+ident(
+  int_ref l "main.ml" 3 64 81 "main.ml" 3 64 82
+)
+"main.ml" 7 182 193 "main.ml" 7 182 203
+call(
+  tail
+)
+type(
+  NanoParse.token list
+)
+"main.ml" 4 86 87 "main.ml" 7 182 203
+type(
+  NanoParse.token list
+)
+"main.ml" 9 209 213 "main.ml" 9 209 219
+type(
+  NanoParse.token list -> NanoParse.token list
+)
+ident(
+  int_ref helper "main.ml" 3 64 74 "main.ml" 3 64 80
+)
+"main.ml" 9 209 220 "main.ml" 9 209 222
+type(
+  NanoParse.token list
+)
+"main.ml" 9 209 213 "main.ml" 9 209 222
+call(
+  tail
+)
+type(
+  NanoParse.token list
+)
+"main.ml" 3 64 66 "main.ml" 9 209 222
+type(
+  NanoParse.token list
+)
+"main.ml" 2 29 31 "main.ml" 9 209 222
+type(
+  NanoParse.token list
+)
+"main.ml" 11 224 228 "main.ml" 11 224 244
+type(
+  string -> Nano.expr
+)
+ident(
+  def filename_to_expr "main.ml" 14 315 315 "main.ml" 1 0 -1
+)
+"main.ml" 11 224 245 "main.ml" 11 224 246
+type(
+  string
+)
+ident(
+  def f "main.ml" 12 250 252 "main.ml" 12 250 313
+)
+"main.ml" 12 250 252 "main.ml" 12 250 265
+type(
+  (Lexing.lexbuf -> NanoParse.token) -> Lexing.lexbuf -> Nano.expr
+)
+ident(
+  ext_ref NanoParse.exp
+)
+"main.ml" 12 250 266 "main.ml" 12 250 279
+type(
+  Lexing.lexbuf -> NanoParse.token
+)
+ident(
+  ext_ref NanoLex.token
+)
+"main.ml" 12 250 281 "main.ml" 12 250 300
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"main.ml" 12 250 302 "main.ml" 12 250 309
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"main.ml" 12 250 310 "main.ml" 12 250 311
+type(
+  string
+)
+ident(
+  int_ref f "main.ml" 11 224 245 "main.ml" 11 224 246
+)
+"main.ml" 12 250 301 "main.ml" 12 250 312
+call(
+  stack
+)
+type(
+  in_channel
+)
+"main.ml" 12 250 280 "main.ml" 12 250 313
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"main.ml" 12 250 252 "main.ml" 12 250 313
+call(
+  tail
+)
+type(
+  Nano.expr
+)
+"main.ml" 14 315 319 "main.ml" 14 315 333
+type(
+  string -> Nano.expr
+)
+ident(
+  def string_to_expr "main.ml" 17 392 392 "main.ml" 1 0 -1
+)
+"main.ml" 14 315 334 "main.ml" 14 315 335
+type(
+  string
+)
+ident(
+  def s "main.ml" 15 338 340 "main.ml" 15 338 390
+)
+"main.ml" 15 338 340 "main.ml" 15 338 353
+type(
+  (Lexing.lexbuf -> NanoParse.token) -> Lexing.lexbuf -> Nano.expr
+)
+ident(
+  ext_ref NanoParse.exp
+)
+"main.ml" 15 338 354 "main.ml" 15 338 367
+type(
+  Lexing.lexbuf -> NanoParse.token
+)
+ident(
+  ext_ref NanoLex.token
+)
+"main.ml" 15 338 369 "main.ml" 15 338 387
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"main.ml" 15 338 388 "main.ml" 15 338 389
+type(
+  string
+)
+ident(
+  int_ref s "main.ml" 14 315 334 "main.ml" 14 315 335
+)
+"main.ml" 15 338 368 "main.ml" 15 338 390
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"main.ml" 15 338 340 "main.ml" 15 338 390
+call(
+  tail
+)
+type(
+  Nano.expr
+)
+"main.ml" 17 392 396 "main.ml" 17 392 403
+type(
+  string -> string
+)
+ident(
+  def execute "main.ml" 22 528 528 "main.ml" 1 0 -1
+)
+"main.ml" 17 392 404 "main.ml" 17 392 405
+type(
+  string
+)
+ident(
+  def f "main.ml" 18 409 411 "main.ml" 20 478 526
+)
+"main.ml" 19 416 420 "main.ml" 19 416 438
+type(
+  Nano.value -> string
+)
+ident(
+  ext_ref Nano.valueToString
+)
+"main.ml" 19 416 440 "main.ml" 19 416 449
+type(
+  Nano.env * Nano.expr -> Nano.value
+)
+ident(
+  ext_ref Nano.eval
+)
+"main.ml" 19 416 451 "main.ml" 19 416 453
+type(
+  Nano.env
+)
+"main.ml" 19 416 455 "main.ml" 19 416 471
+type(
+  string -> Nano.expr
+)
+ident(
+  int_ref filename_to_expr "main.ml" 11 224 228 "main.ml" 11 224 244
+)
+"main.ml" 19 416 472 "main.ml" 19 416 473
+type(
+  string
+)
+ident(
+  int_ref f "main.ml" 17 392 404 "main.ml" 17 392 405
+)
+"main.ml" 19 416 454 "main.ml" 19 416 474
+call(
+  stack
+)
+type(
+  Nano.expr
+)
+"main.ml" 19 416 450 "main.ml" 19 416 475
+type(
+  Nano.env * Nano.expr
+)
+"main.ml" 19 416 439 "main.ml" 19 416 476
+call(
+  stack
+)
+type(
+  Nano.value
+)
+"main.ml" 19 416 420 "main.ml" 19 416 476
+call(
+  stack
+)
+type(
+  string
+)
+"main.ml" 20 478 485 "main.ml" 20 478 488
+type(
+  exn
+)
+ident(
+  def exn "main.ml" 20 478 492 "main.ml" 20 478 526
+)
+"main.ml" 20 478 492 "main.ml" 20 478 501
+type(
+  string
+)
+"main.ml" 20 478 501 "main.ml" 20 478 502
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"main.ml" 20 478 503 "main.ml" 20 478 521
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"main.ml" 20 478 522 "main.ml" 20 478 525
+type(
+  exn
+)
+ident(
+  int_ref exn "main.ml" 20 478 485 "main.ml" 20 478 488
+)
+"main.ml" 20 478 502 "main.ml" 20 478 526
+call(
+  stack
+)
+type(
+  string
+)
+"main.ml" 20 478 492 "main.ml" 20 478 526
+call(
+  tail
+)
+type(
+  string
+)
+"main.ml" 18 409 411 "main.ml" 20 478 526
+type(
+  string
+)
+"main.ml" 22 528 532 "main.ml" 22 528 546
+type(
+  string -> string
+)
+ident(
+  def execute_string "main.ml" 27 664 664 "main.ml" 1 0 -1
+)
+"main.ml" 22 528 547 "main.ml" 22 528 548
+type(
+  string
+)
+ident(
+  def s "main.ml" 23 552 554 "main.ml" 25 614 662
+)
+"main.ml" 24 558 559 "main.ml" 24 558 577
+type(
+  Nano.value -> string
+)
+ident(
+  ext_ref Nano.valueToString
+)
+"main.ml" 24 558 579 "main.ml" 24 558 588
+type(
+  Nano.env * Nano.expr -> Nano.value
+)
+ident(
+  ext_ref Nano.eval
+)
+"main.ml" 24 558 590 "main.ml" 24 558 592
+type(
+  Nano.env
+)
+"main.ml" 24 558 594 "main.ml" 24 558 608
+type(
+  string -> Nano.expr
+)
+ident(
+  int_ref string_to_expr "main.ml" 14 315 319 "main.ml" 14 315 333
+)
+"main.ml" 24 558 609 "main.ml" 24 558 610
+type(
+  string
+)
+ident(
+  int_ref s "main.ml" 22 528 547 "main.ml" 22 528 548
+)
+"main.ml" 24 558 593 "main.ml" 24 558 611
+call(
+  stack
+)
+type(
+  Nano.expr
+)
+"main.ml" 24 558 589 "main.ml" 24 558 612
+type(
+  Nano.env * Nano.expr
+)
+"main.ml" 24 558 578 "main.ml" 24 558 613
+call(
+  stack
+)
+type(
+  Nano.value
+)
+"main.ml" 24 558 559 "main.ml" 24 558 613
+call(
+  stack
+)
+type(
+  string
+)
+"main.ml" 25 614 621 "main.ml" 25 614 624
+type(
+  exn
+)
+ident(
+  def exn "main.ml" 25 614 628 "main.ml" 25 614 662
+)
+"main.ml" 25 614 628 "main.ml" 25 614 637
+type(
+  string
+)
+"main.ml" 25 614 637 "main.ml" 25 614 638
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"main.ml" 25 614 639 "main.ml" 25 614 657
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"main.ml" 25 614 658 "main.ml" 25 614 661
+type(
+  exn
+)
+ident(
+  int_ref exn "main.ml" 25 614 621 "main.ml" 25 614 624
+)
+"main.ml" 25 614 638 "main.ml" 25 614 662
+call(
+  stack
+)
+type(
+  string
+)
+"main.ml" 25 614 628 "main.ml" 25 614 662
+call(
+  tail
+)
+type(
+  string
+)
+"main.ml" 23 552 554 "main.ml" 25 614 662
+type(
+  string
+)
+"main.ml" 27 664 668 "main.ml" 27 664 669
+type(
+  unit
+)
+"main.ml" 28 672 674 "main.ml" 28 672 687
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"main.ml" 28 672 688 "main.ml" 28 672 702
+type(
+  (unit, out_channel, unit) format
+)
+"main.ml" 28 672 674 "main.ml" 28 672 702
+call(
+  stack
+)
+type(
+  unit
+)
+"main.ml" 29 704 706 "main.ml" 29 704 719
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"main.ml" 29 704 720 "main.ml" 29 704 729
+type(
+  (string -> unit, out_channel, unit) format
+)
+"main.ml" 29 704 731 "main.ml" 29 704 744
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"main.ml" 29 704 745 "main.ml" 29 704 748
+type(
+  string
+)
+"main.ml" 29 704 750 "main.ml" 29 704 763
+type(
+  string array -> string list
+)
+ident(
+  ext_ref Array.to_list
+)
+"main.ml" 29 704 764 "main.ml" 29 704 772
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"main.ml" 29 704 749 "main.ml" 29 704 773
+call(
+  stack
+)
+type(
+  string list
+)
+"main.ml" 29 704 730 "main.ml" 29 704 774
+call(
+  stack
+)
+type(
+  string
+)
+"main.ml" 29 704 706 "main.ml" 29 704 774
+call(
+  stack
+)
+type(
+  unit
+)
+"main.ml" 30 776 782 "main.ml" 30 776 795
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"main.ml" 30 776 796 "main.ml" 30 776 808
+type(
+  (string -> unit, out_channel, unit) format
+)
+"main.ml" 30 776 810 "main.ml" 30 776 817
+type(
+  string -> string
+)
+ident(
+  int_ref execute "main.ml" 17 392 396 "main.ml" 17 392 403
+)
+"main.ml" 30 776 818 "main.ml" 30 776 826
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"main.ml" 30 776 828 "main.ml" 30 776 829
+type(
+  int
+)
+"main.ml" 30 776 818 "main.ml" 30 776 830
+type(
+  string
+)
+"main.ml" 30 776 809 "main.ml" 30 776 831
+call(
+  stack
+)
+type(
+  string
+)
+"main.ml" 30 776 782 "main.ml" 30 776 831
+call(
+  stack
+)
+type(
+  unit
+)
+"main.ml" 31 832 839 "main.ml" 31 832 840
+type(
+  exn
+)
+"main.ml" 31 832 844 "main.ml" 31 832 846
+type(
+  unit
+)
+"main.ml" 30 776 778 "main.ml" 31 832 846
+type(
+  unit
+)
+"main.ml" 29 704 706 "main.ml" 31 832 846
+type(
+  unit
+)
+"main.ml" 28 672 674 "main.ml" 31 832 846
+type(
+  unit
+)
